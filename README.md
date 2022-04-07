@@ -41,7 +41,7 @@ Dette skjemaet benyttes i tilfeller der virksomheter (fullmaktsgiver) gir fullma
 og/eller tinglyse andre typer rettsendringer på deres vegne. I fullmakten må det angis fullmaktsgiver, fullmektig, disposisjoner den skal gjelde og fullmaktens 
 varighet. Fullmektig må benytte sin personlige digitale signatur ved bruk av fullmakten til tinglysing.
 
-###Hjemmelsfullmakt (skjema kommer, tentativt navn)
+### Hjemmelsfullmakt (skjema kommer, tentativt navn)
 Dette skjemaet benyttes i tilfeller der virksomheter eller personer (fullmaktsgiver) gir fullmakt til andre virksomheter eller navngitte personer (fullmektig) til 
 å overdra, pantsette og/eller tinglyse urådighet på bestemte registerenheter på deres vegne. I fullmakten må det angis fullmaktsgiver, fullmektig, disposisjoner 
 den skal gjelde, og fullmaktens varighet. I tillegg må det oppgis hvilke registerenheter den skal gjelde for, om den skal gjelde for senere fradelte eiendommer 
