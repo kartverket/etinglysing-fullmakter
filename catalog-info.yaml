@@ -1,0 +1,39 @@
+# nonk8s
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
+metadata:
+  name: "etinglysing-fullmakter"
+  tags:
+  - "public"
+spec:
+  type: "documentation"
+  lifecycle: "production"
+  owner: "digibok"
+  system: "grunnbok"
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Group"
+metadata:
+  name: "security_champion_etinglysing-fullmakter"
+  title: "Security Champion etinglysing-fullmakter"
+spec:
+  type: "security_champion"
+  parent: "eiendom_security_champions"
+  members:
+  - "haakl"
+  children:
+  - "resource:etinglysing-fullmakter"
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Resource"
+metadata:
+  name: "etinglysing-fullmakter"
+  links:
+  - url: "https://github.com/kartverket/etinglysing-fullmakter"
+    title: "etinglysing-fullmakter på GitHub"
+spec:
+  type: "repo"
+  owner: "security_champion_etinglysing-fullmakter"
+  system: "grunnbok"
+  dependencyOf:
+  - "component:etinglysing-fullmakter"
